@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+.countdown-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.countdown-box h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.countdown-box .countdown-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
+.countdown-box .countdown-details span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.countdown-box .countdown-details h3{
+    font-size: 15px;
+    color: rgb(75, 73, 73);
+    margin: 0;
+    text-transform: capitalize;
+}
